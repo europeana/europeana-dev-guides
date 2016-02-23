@@ -6,7 +6,7 @@
 
 * Coding conventions are based on the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide),
   with some variations.
-* The style is specified in a Rubocop configuration file: [.ruby-style.yml](gem/.ruby-style.yml).
+* The style is specified in a Rubocop configuration file: [.ruby-style.yml](.ruby-style.yml).
 
 ### 1.2. License
 
