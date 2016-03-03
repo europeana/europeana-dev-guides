@@ -105,7 +105,7 @@ The front-end layout and presentation should use [Europeana's styleguide](https:
 
 ### 4.1. Inline
 
-* Use [YARD](http://yardoc.org/), RDoc & Markdown.
+* Use [YARD](http://yardoc.org/) & Markdown.
 
 ### 4.2. End user
 
