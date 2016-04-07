@@ -1,5 +1,7 @@
 #Europeana Javascript development guide
 
+See the [general development guide](general.md) for guidance. Here are additional JavaScript-specific guidelines.
+
 ##1 Style
 
 * use (2) spaces not tabs
@@ -43,7 +45,7 @@ We use grunt to concatenate, copy, package, version and watch the Javascript cod
         (see the output from "grunt help" for details)
 * grunt freeze-version --styleguide-version
 
-        creates a styleguide version based on the supplied parameter 
+        creates a styleguide version based on the supplied parameter
 
 
 ##5 Documentation
@@ -53,4 +55,3 @@ Method signatures should have a clarity that negates the need for an explanatory
       // returns the page title
       function getPgeTitle(){
          ...
-
