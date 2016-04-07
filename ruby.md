@@ -30,7 +30,7 @@
 * App configuration should come from environment variables.
   * In development environments, use the [dotenv](https://github.com/bkeepers/dotenv)
     gem and set these in .env in your application root.
-  * In Cloud Foundry environments (testing, acceptance and production), use `cf set-env`. 
+  * In Cloud Foundry environments (testing, acceptance and production), use `cf set-env`.
   * Document an app's environment variables in its Git repo's README.
 * Modularise and package distinct & reusable functions into libraries, i.e. Ruby
   gems
@@ -48,7 +48,7 @@
 
 ### 2.1. Language and framework versions
 
-* Develop for the latest stable versions of Ruby and Rails supported by the 
+* Develop for the latest stable versions of Ruby and Rails supported by the
   intended production environment and any other dependencies.
 * Declare the Ruby version in your project's Gemfile or .ruby-version
 * In dev environments, it is recommended to use RVM or rbenv to install required
@@ -83,6 +83,8 @@ The front-end layout and presentation should use [Europeana's styleguide](https:
 
 * Managed using [Gem Bundler](http://bundler.io/).
 * Keep your dependencies up-to-date over time, monitoring them with [Gemnasium](http://gemnasium.com/).
+* If your app needs to get data from Europeana’a REST API, use our own [europeana-api](https://github.com/europeana/europeana-api-client-ruby) gem
+
 
 ## 3. Continuous Integration
 
