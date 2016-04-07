@@ -11,7 +11,7 @@ See the [general development guide](general.md) for guidance. Here are additiona
 
 ### 1.2. Architecture
 
-See the [general development guide](https://github.com/europeana/europeana-dev-guides/blob/develop/general.md#14-architecture) for architecture guidance. In addition:
+See the [general development guide](https://github.com/europeana/europeana-dev-guides/blob/develop/general.md#13-architecture) for architecture guidance. In addition:
 * Use [Maven](https://maven.apache.org/) to build your project
 * If your project has sub-projects, create a parent POM file that builds everything, in order
 
@@ -47,7 +47,7 @@ The front-end layout and presentation should use Europeana's styleguide
 ### 3.1. Automated testing
 * Use [JUnit](http://junit.org/) to test features (i.e. unit and integration tests)
 * Use Github's web hooks to run automated tests on code changes in pull requests; at least:
-  * Those specified in the [general guide](https://github.com/europeana/europeana-dev-guides/blob/develop/general.md#31-automated-testing)
+  * Those specified in the [general guide](https://github.com/europeana/europeana-dev-guides/blob/develop/general.md#21-automated-testing)
 
 ## 4. Documentation
 

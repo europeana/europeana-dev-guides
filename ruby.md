@@ -11,7 +11,7 @@ See the [general development guide](general.md) for guidance. Here are additiona
 * The style is specified in a Rubocop configuration file: [.ruby-style.yml](ruby/.ruby-style.yml).
 
 ### 1.2. Architecture
-See the [general development guide](https://github.com/europeana/europeana-dev-guides/blob/develop/general.md#14-architecture) for architecture guidance. In addition:
+See the [general development guide](https://github.com/europeana/europeana-dev-guides/blob/develop/general.md#13-architecture) for architecture guidance. In addition:
 * In development environments, use the [dotenv](https://github.com/bkeepers/dotenv)
     gem and set these in .env in your application root.
 * If your app has multiple process roles, list these in a [Procfile](https://docs.cloudfoundry.org/buildpacks/ruby/ruby-prod-server.html),
@@ -65,7 +65,7 @@ The front-end layout and presentation should use [Europeana's styleguide](https:
 * Use RSpec or Minitest to describe and test features (i.e. unit and integration tests)
 * Use fixtures (not factories)
 * Use Github's web hooks to run automated tests on code changes in pull requests; at least:
-  * Those specified in the [general guide](https://github.com/europeana/europeana-dev-guides/blob/develop/general.md#31-automated-testing)
+  * Those specified in the [general guide](https://github.com/europeana/europeana-dev-guides/blob/develop/general.md#21-automated-testing)
   * [Hound CI](https://houndci.com/) to check code style
   * [Hakiri](https://hakiri.io/) to check code security
 
