@@ -41,6 +41,7 @@ The front-end layout and presentation should use Europeana's styleguide
 
 * Managed using [Maven](https://maven.apache.org/)
 * Keep your dependencies up-to-date over time
+* Our own code is released to our [Artifactory](http://artifactory.eanadev.org/); for other code we depend on the public Maven repositories
 
 ## 3. Continuous Integration
 
