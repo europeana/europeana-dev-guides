@@ -39,7 +39,7 @@
 * Use the language-specific testing framework to describe and test features (i.e. unit and integration tests)
 * Use Github's web hooks to run automated tests on code changes in pull requests; at least:
   * [Travis CI](https://travis-ci.org/) to run your test suite
-  * [Coveralls](https://coveralls.io/) to check code coverage
+  * [Coveralls](https://coveralls.io/) or similar to check code coverage
 
 ### 2.2. Test environment
 
