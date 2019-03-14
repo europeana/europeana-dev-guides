@@ -9,8 +9,7 @@ Europeana's development guides for Ruby and Java.
 
 ## License
 
-Software written by and on behalf of the Europeana Foundation is licensed under
-the EUPL v1.2.
+Licensed under the EUPL v1.2.
 
 For the text of the license in English, see [LICENSE.txt](LICENSE.txt).
 
