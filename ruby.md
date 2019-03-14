@@ -74,3 +74,10 @@ The front-end layout and presentation should use [Europeana's styleguide](https:
 ### 4.1. Inline
 
 * Use [YARD](http://yardoc.org/) & Markdown.
+ 
+## 5. Deployment Considerations
+
+### 5.1 Database Migrations
+
+*  In order to mitigate downtime for live systems, avoid taking the database offline for migrations. instead use the Patterns described in [this blog post](https://blog.codeship.com/rails-migrations-zero-downtime/) when running db migrations.
+
