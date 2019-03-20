@@ -4,9 +4,13 @@
 
 ### 1.1. License
 
-* Europeana develops open source software licensed under the [Europeana Union Public Licence (EUPL v.1.1)](https://joinup.ec.europa.eu/community/eupl/og_page/european-union-public-licence-eupl-v11).
-* All third-party software used by software developed and distributed by
-  Europeana must be [compatible with the EUPL v.1.1](https://joinup.ec.europa.eu/software/page/eupl/eupl-compatible-open-source-licences).
+## License
+
+* Europeana develops open source software licensed under the
+  [Europeana Union Public Licence (EUPL v1.2)](https://joinup.ec.europa.eu/collection/eupl/eupl-text-11-12).
+* All third-party software used by software developed and distributed by, or on
+  behalf of, Europeana must be
+  [compatible with the EUPL v1.2](https://joinup.ec.europa.eu/collection/eupl/licence-compatibility).
 
 ### 1.2. Version control
 * Use [Europeana's Github](https://github.com/europeana)
