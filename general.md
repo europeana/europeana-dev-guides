@@ -16,11 +16,12 @@
 * Use [Europeana's Github](https://github.com/europeana)
 * Follow ["A successful Git branching model"](http://nvie.com/posts/a-successful-git-branching-model/);
   in summary:
+  * Create a **feature branch** for each ticket you work on 
   * Make **atomic commits** with concise but informative messages
-  * Use the **develop branch** for ongoing development
+  * Create **pull requests** for code changes and let a co-worker review your work
   * Use the **master branch** for production-ready code
-  * Create **pull requests** for code changes
-  * **Tag releases** in the Git repo once merged into master, using [semantic versioning](http://semver.org/)
+  * **Tag releases** in the Git repo once merged into master, using [semantic versioning](http://semver.org/) and use
+  those tags to deploy to production.
 
 ### 1.3. Architecture
 
@@ -30,12 +31,19 @@
   * Document an app's environment variables in its Git repo's README.
 * Modularise and package distinct & reusable functions into libraries, i.e. Ruby
   gems or Java jars
-
-### 1.4. Accessibility
+  
+### 1.4. Selecting third-party libraries and frameworks
+Prefer software that:
+* Is open-source
+* Has an active community (e.g. on GitHub)
+* Provides new releases and fixes regularly
+  
+### 1.5. Accessibility
 
 * Where practical, all functionality should be available in static HTML with
   JavaScript disabled
 * UX can be improved with JavaScript, IAX, etc
+* The front-end layout and presentation (if there is any) should use Europeana's styleguide.
 
 ## 2. Continuous Integration
 
@@ -51,9 +59,18 @@
   production environment.
 * Use our Jenkins service to deploy.
 
-## 3. Documentation
+## 3. Deployment to production
 
-### 3.1. End user
+* Set up a Jenkins job that deploys your project to the desired server (usually Cloud Foundry)
+* For the deployment of front-facing production services make sure this Jenkins job includes:
+    * Blue/green deployment
+    * Sending all access logs and logs of INFO level and higher to the Europeana ELK stack
+    * Sending data to the Europeana APM
+* Make sure uptime is measured with Pingdom
+
+## 4. Documentation
+
+### 4.1. End user
 
 * Maintain in the repo root at least README.md and LICENSE.md.
 * Use Markdown for any documentation included in the repo.
