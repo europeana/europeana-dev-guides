@@ -34,7 +34,6 @@
   
 ### 1.4. Selecting third-party libraries and frameworks
 Prefer software that:
-* Is open-source
 * Has an active community (e.g. on GitHub)
 * Provides new releases and fixes regularly
   
